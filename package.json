@@ -1,15 +1,32 @@
 {
+<<<<<<< HEAD
   "name": "middleware-project",
   "version": "1.0.0",
   "main": "index.js",
+=======
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.3"
+  },
+  "name": "mvc-file-pattern",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "devDependencies": {},
+>>>>>>> 116da0787da6e137c002fd4c692d8261e8badd34
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "description": "",
   "dependencies": {
     "express": "^5.1.0"
   }
+=======
+  "description": ""
+>>>>>>> 116da0787da6e137c002fd4c692d8261e8badd34
 }

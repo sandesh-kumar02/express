@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const app = express();
 // const router = express.Router();
@@ -56,3 +57,43 @@ app.use((err, req, res, next)=>{
 app.listen('3000', ()=>{
     console.log('server is eunning on port no. 3000');
 })
+=======
+// constructor function in javascript;
+
+function person(name, age, city) {
+  this.userName = name;
+  this.userAge = age;
+  this.userCity = city;
+}
+
+person.prototype.talk = function () {
+  console.log(
+    `hello my name is : ${this.userName}, age is : ${this.userAge} and userCity is: ${this.userCity}`
+  );
+};
+
+
+
+
+
+class person {
+    constructor(name, age, city) {
+        this.username = name;
+        this.userAge  = age;
+        this.userCity = city;
+    }
+    talk() {
+        console.log(`userName is : ${this.username}, user Age is : ${this.userAge} and userCity is ${this.userCity}`);
+    }
+};
+
+
+
+let p1 = new person("sandesh kumar", 20, "Gopalganj");
+let p2 = new person("Golden kumar", 7, "Gopalganj");
+
+
+class square extends Box() {
+
+}
+>>>>>>> 116da0787da6e137c002fd4c692d8261e8badd34
