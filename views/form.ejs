@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form Route</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <h1>form validation learning</h1>
+  <% if (error.length > 0) {%>
+      <ul>
+        <% error.forEach((error) => {%>
+            <li><%= error.msg %></li>
+       <% }); %>
+        </ul>
+  <%} %>
+    <form method="post" action="/show">
+      <input
+        type="text"
+        name="username"
+        ,
+        placeholder="enter your name"
+        required
+      /> <br><br>
+      <input
+        type="email"
+        name="email"
+        placeholder="enter your email"
+        required
+      /> <br><br>
+      <input
+        type="password"
+        name="password"
+        placeholder="enter your password"
+        required
+      /> <br><br>
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
