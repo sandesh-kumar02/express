@@ -1,11 +1,17 @@
 {
+<<<<<<< HEAD
   "name": "authapp",
   "version": "1.0.0",
   "description": "this is signup and login page",
+=======
+  "name": "student-management-system",
+  "version": "1.0.0",
+>>>>>>> e0558b1 (Implement student login with profile view, edit, and delete)
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "author": "sandesh kumar",
   "license": "ISC",
   "dependencies": {
@@ -16,5 +22,17 @@
     "express-validator": "^7.2.1",
     "method-override": "^3.0.0",
     "mongoose": "^8.17.0"
+=======
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.16.5"
+>>>>>>> e0558b1 (Implement student login with profile view, edit, and delete)
   }
 }

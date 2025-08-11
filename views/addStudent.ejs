@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form routs</title>
+    <link rel="stylesheet" href="/addStudent.css">
+  </head>
+  <body>
+    <h1>fill your form</h1>
+    <form method="post" action="/student/add">
+      <input type="text" name="name" placeholder="enter your name" required />
+      <input
+        type="number"
+        name="rollNo"
+        placeholder="enter your rollNo"
+        required
+      />
+      <input
+        type="text"
+        name="className"
+        placeholder="enter your class"
+        required
+      />
+      <input
+        type="text"
+        name="section"
+        placeholder="enter your section"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="enter your email"
+        required
+      />
+      <input
+        type="number"
+        name="phone"
+        placeholder="enter your phone number"
+        required
+      />
+      <button type="submit">Submit</button>
+    </form>
+    <div class="Home">
+      <a href="/">Home</a>
+    </div>
+  </body>
+</html>

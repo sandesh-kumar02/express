@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>edit route</title>
+    <link rel="stylesheet" href="/edit.css">
+  </head>
+  <body>
+    <h1>this is edit route</h1>
+    <form action="/student/edit/<%= student._id %>?_method=PATCH" method="POST">
+      <input type="text" name="name" value="<%= student.name %>" />
+      <input type="number" name="rollNo" value="<%= student.rollNo %>" />
+      <input type="text" name="className" value="<%= student.className %>" />
+      <input type="text" name="section" value="<%= student.section %>" />
+      <input type="email" name="email" value="<%= student.email %>" />
+      <input type="number" name="phone" value="<%= student.phone %>" />
+      <button type="submit">Update Student</button>
+    </form>
+  </body>
+</html>

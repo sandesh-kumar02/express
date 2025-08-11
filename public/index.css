@@ -1,0 +1,59 @@
+table,
+th,
+td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+body {
+  background-color: black;
+  color: white;
+}
+th {
+  padding: 5px;
+  text-align: center;
+}
+thead {
+  background-color: brown;
+}
+td {
+  padding: 5px;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+button {
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.add {
+  margin-top: 20px;
+
+  width: 50px;
+  text-align: center;
+  /* padding: 5px 20px; */
+}
+.add a {
+  color: black;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: azure;
+}
+
+.edit {
+  position: absolute;
+  margin-top : 10.5%;
+  margin-left: 7%;
+
+  color: black;
+}
+.edit a {
+  color: black;
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
