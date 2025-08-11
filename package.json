@@ -1,17 +1,20 @@
 {
-  "name": "express-form-validation",
+  "name": "authapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "this is signup and login page",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "sandesh kumar",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "express-validator": "^7.2.1"
+    "express-session": "^1.18.2",
+    "express-validator": "^7.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.17.0"
   }
 }
